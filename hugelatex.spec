@@ -2,14 +2,16 @@ Summary:	Temporary package to provide hugelatex (latex with increased capacities
 Summary(pl):	Tymczasowy pakiet, który zawiera hugelatex (latexa o zwiêkszonych mo¿liwo¶ciach)
 Name:		hugelatex
 Version:	0
-Release:	3
+Release:	4
 License:	GPL
 Group:		Applications/Publishing/SGML
 #Source0:
 BuildRequires:	tetex >= 0.9
 BuildRequires:	tetex-latex >= 0.9
-%requires_eq	tetex
-%requires_eq	tetex-latex
+BuildRequires:	tetex-tex-babel
+BuildRequires:	tetex-tex-ruhyphen
+BuildRequires: 	tetex-tex-ukrhyph
+BuildRequires:  tetex-csplain
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildRequires:	tetex >= 1.0.7-2, tetex-latex >= 1.0.7-2
 
