@@ -2,7 +2,7 @@ Summary:	Temporary package to provide hugelatex (latex with increased capacities
 Summary(pl):	Tymczasowy pakiet, który zawiera hugelatex (latexa o zwiêkszonych mo¿liwo¶ciach)
 Name:		hugelatex
 Version:	0
-Release:	2
+Release:	3
 License:	GPL
 Group:		Applications/Publishing/SGML
 Group(de):	Applikationen/Publizieren/SGML
