@@ -1,4 +1,5 @@
 Summary:	Temporary package to provide hugelatex (latex with increased capacities).
+Summary(pl):	Tymczasowy pakiet, który zawiera hugelatex (latexa o zwiêkszonych mo¿liwo¶ciach).
 Name:		hugelatex
 Version:	0
 Release:	1
@@ -11,6 +12,9 @@ BuildRequires:	tetex >= 1.0.7-2, tetex-latex >= 1.0.7-2
 
 %description
 Temporary package to provide hugelatex
+
+%description -l pl
+Tymczasowy pakiet zawieraj±cy hugelatex.
 
 #%prep
 #%setup -q -n jadetex
