@@ -29,9 +29,9 @@ Tymczasowy pakiet zawieraj±cy hugelatex.
 rm -rf $RPM_BUILD_ROOT
 install -d $RPM_BUILD_ROOT{%{_datadir}/texmf/web2c,%{_bindir}}
 
-cp %{_datadir}/texmf/tex/latex/config/* $RPM_BUILD_ROOT/
+cp %{_datadir}/texmf/tex/latex/config/* $RPM_BUILD_ROOT
 (cd $RPM_BUILD_ROOT; tex -ini -progname=hugelatex latex.ini)
-cp $RPM_BUILD_ROOT/latex.fmt $RPM_BUILD_ROOT/%{_datadir}/texmf/web2c/%{name}.fmt
+cp $RPM_BUILD_ROOT/latex.fmt $RPM_BUILD_ROOT%{_datadir}/texmf/web2c/%{name}.fmt
 ln -s %{_bindir}/tex $RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %post
