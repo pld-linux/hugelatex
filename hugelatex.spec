@@ -10,8 +10,8 @@ BuildRequires:	tetex >= 0.9
 BuildRequires:	tetex-latex >= 0.9
 BuildRequires:	tetex-tex-babel
 BuildRequires:	tetex-tex-ruhyphen
-BuildRequires: 	tetex-tex-ukrhyph
-BuildRequires:  tetex-csplain
+BuildRequires:	tetex-tex-ukrhyph
+BuildRequires:	tetex-csplain
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 BuildRequires:	tetex >= 1.0.7-2, tetex-latex >= 1.0.7-2
 
