@@ -21,7 +21,7 @@ Temporary package to provide hugelatex
 %description -l pl
 Tymczasowy pakiet zawieraj±cy hugelatex.
 
-#%prep
+%prep
 #%setup -q -n jadetex
 #%patch0 -p1
 
