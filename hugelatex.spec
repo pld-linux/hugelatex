@@ -5,8 +5,6 @@ Version:	0
 Release:	3
 License:	GPL
 Group:		Applications/Publishing/SGML
-Group(de):	Applikationen/Publizieren/SGML
-Group(pl):	Aplikacje/Publikowanie/SGML
 #Source0:	
 BuildRequires:	tetex >= 0.9
 BuildRequires:	tetex-latex >= 0.9
