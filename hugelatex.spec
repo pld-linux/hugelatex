@@ -5,7 +5,7 @@ Version:	0
 Release:	3
 License:	GPL
 Group:		Applications/Publishing/SGML
-#Source0:	
+#Source0:
 BuildRequires:	tetex >= 0.9
 BuildRequires:	tetex-latex >= 0.9
 %requires_eq	tetex
