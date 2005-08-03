@@ -35,10 +35,10 @@ cp $RPM_BUILD_ROOT/latex.fmt $RPM_BUILD_ROOT%{_datadir}/texmf/web2c/%{name}.fmt
 ln -s %{_bindir}/tex $RPM_BUILD_ROOT%{_bindir}/%{name}
 
 %post
-[ -x %{_bindir}/texhash ] && /usr/bin/env - %{_bindir}/texhash 1>&2
+[ ! -x %{_bindir}/texhash ] || /usr/bin/env - %{_bindir}/texhash 1>&2
 
 %postun
-[ -x %{_bindir}/texhash ] && /usr/bin/env - %{_bindir}/texhash 1>&2
+[ ! -x %{_bindir}/texhash ] || /usr/bin/env - %{_bindir}/texhash 1>&2
 
 %clean
 rm -rf $RPM_BUILD_ROOT
