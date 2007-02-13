@@ -1,5 +1,5 @@
 Summary:	Temporary package to provide hugelatex (latex with increased capacities)
-Summary(pl.UTF-8):   Tymczasowy pakiet, który zawiera hugelatex (latexa o zwiększonych możliwościach)
+Summary(pl.UTF-8):	Tymczasowy pakiet, który zawiera hugelatex (latexa o zwiększonych możliwościach)
 Name:		hugelatex
 Version:	0
 Release:	4
